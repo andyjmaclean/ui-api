@@ -1,0 +1,66 @@
+# NB! The below line is required for our yeoman generator and should not be changed.
+#===== yeoman begin-hook =====#
+---
+  :atoms:
+    -
+      :title: "Atoms"
+      :items:
+        -
+          :name: "Colour"
+          :slug: "colour"
+        -
+          :name: "Thumbnail"
+          :slug: "thumbnail"
+    -
+      :title: "Isotopes"
+      :items:
+        -
+          :name: "Isotopes"
+          :slug: "isotopes"
+
+
+  :molecules:
+    -
+      :title: "Molecules"
+      :items:
+        -
+          :name: "Colours"
+          :slug: "colours"
+          
+  :organisms:
+    -
+      :title: "Organisms"
+      :items:
+        -
+          :name: "Organisms 1"
+          :slug: "organism-1"
+          
+  :templates:
+    -
+      :title: "Templates"
+      :items:
+        -
+          :name: "Templates 1"
+          :slug: "template-1"
+          
+  :pages:
+    -
+      :title: "Pages"
+      :items:
+        -
+          :name: "Pages 1"
+          :slug: "page-1"
+          
+  :js_components:
+    -
+      :title: "JS"
+      :items:
+        -
+          :name: "Lightbox"
+          :slug: "lightbox"
+        -
+          :name: "Accordion Tabs"
+          :slug: "accordion-tabs"
+
+#===== yeoman end-hook =====#
+# NB! The above line is required for our yeoman generator and should not be changed.

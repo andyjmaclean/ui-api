@@ -1,0 +1,48 @@
+.pagination
+  position: relative
+
+  &.card
+    @extend %rounded-corners
+    padding: 8px 20px
+
+.pagination__link
+  border-radius: 5px
+  background-color: #fff
+  border: 2px solid $body-background
+  color: $section--transport
+  display: inline-block
+  font-weight: bold
+  margin-left: 2px
+  padding: 8px 12px
+
+  &:first-child
+    margin-left: 0
+
+.pagination__link--next,
+.pagination__link--prev
+  &:before
+    +size(12px)
+    display: inline-block
+    position: relative
+    top: 2px
+
+.pagination__link--first,
+.pagination__link--last,
+.pagination__link--next,
+.pagination__link--prev
+  display: inline-block
+
+.pagination__backwards,
+.pagination__forwards
+  min-height: 35px
+  min-width: 100px
+
+.pagination__link--current
+  display: inline-block
+  opacity: 0.5
+
+.pagination__numbers
+  text-align: center
+
+.pagination__detailed-info
+  padding-top: 15px

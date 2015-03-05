@@ -1,0 +1,10 @@
+---
+applications:
+- name: eu-rizzo
+  buildpack: "https://github.com/cloudfoundry/ruby-buildpack#v1.2.1"
+  instances: 1
+  memory: 256M
+  timeout: 60
+  env:
+    STACK: cedar
+ 

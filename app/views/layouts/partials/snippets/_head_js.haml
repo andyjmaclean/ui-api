@@ -1,0 +1,28 @@
+/[if lt IE 9]
+  :javascript
+    document.createElement('header');
+    document.createElement('nav');
+    document.createElement('section');
+    document.createElement('article');
+    document.createElement('aside');
+    document.createElement('footer');
+    document.createElement('figure');
+    document.createElement('figurecap');
+    document.createElement('hgroup');
+    document.createElement('time');
+    document.createElement('picture');
+
+:javascript
+  // Setup our namespace
+  window.eu = window.eu || {};
+
+  // Allow apps to pass in requirejs configuration
+  window.eu.require = {
+    paths: {},
+    shim: {}
+  }
+
+
+= yield :head_js
+
+

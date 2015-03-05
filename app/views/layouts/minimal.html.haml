@@ -1,0 +1,20 @@
+= render 'layouts/partials/snippets/doctype_declaration'
+
+%head
+  = render 'layouts/custom/head', tynt: false, true, include_js: true, third_party: false, legacy_lp: false, app_core: false, default_title: true
+
+%body
+  .wrapper.js-wrapper
+
+    .row.row--content{ id: 'js-row--content' }
+      - if content_for?(:secondary)
+        .row.row--secondary#js-secondary-nav
+          = yield :secondary
+
+      - if (yield :alerts).present?
+        .row.row--alerts
+          = yield :alerts
+
+      = yield
+
+    = render 'layouts/partials/snippets/footer_js', third_party: false

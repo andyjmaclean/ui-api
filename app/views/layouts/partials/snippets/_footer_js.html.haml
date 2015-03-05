@@ -1,0 +1,8 @@
+.js-config.is-hidden
+  = yield :scripts
+
+  = js_configuration
+  - if defined?($JS_VARS)
+    :javascript
+      #{js_hash($JS_VARS)}
+

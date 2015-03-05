@@ -1,0 +1,23 @@
+it:
+  colours:
+    nbt:
+      white: Bianco
+      off-white: Bianco-Griggio
+      paper: Carta
+      light-grey: Griggia Leggera
+      medium-grey: Griggia Media
+      dark-grey: Griggia Scura
+      black: Nero
+    top-level:
+      end-user-blue: Utente Blue
+      jade-green: Verde Giada
+      raspberry: Lampone
+    brand-colours:
+      yellow: Giallo
+      red: Rosso
+      raspberry: Lampone
+      jade-green: Verde Giada
+      light-blue: Azzurro
+      blue: Blu
+      purple: Viola
+

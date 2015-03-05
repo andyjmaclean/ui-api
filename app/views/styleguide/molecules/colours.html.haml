@@ -1,0 +1,28 @@
+= render 'styleguide/partials/shared'
+
+%p
+  The template:
+  %br
+  %code
+    molecules/colours
+  %br
+
+
+%p
+  can be accessed with the component ui function:  
+  %br
+  %code
+    &#61; ui_component('molecules/colours')
+
+%p
+  or the api endpoint:
+  %br
+  %a{ href: '/europeana/molecules/_colours' }
+    here
+
+%p
+  It outputs all the style-guide colours:
+
+  %ul.sg-colors
+    = ui_component('molecules/colours')
+
