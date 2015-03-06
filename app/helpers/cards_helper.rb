@@ -42,13 +42,7 @@ module CardsHelper
   end
 
   def card_layer_data(props)
-    return {} unless props[:layer?]
-    {
-      lightbox: {
-        showpreloader: 'true',
-        class: 'lightbox--layer'
-      }
-    }
+    {}
   end
 
   def card_from_widget_data(data, index)
