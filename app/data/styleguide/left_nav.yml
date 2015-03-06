@@ -9,6 +9,9 @@
         -
           :name: "Thumbnail"
           :slug: "thumbnail"
+        -
+          :name: "Search Result"
+          :slug: "search-result"
     -
       :title: "Isotopes"
       :items:
