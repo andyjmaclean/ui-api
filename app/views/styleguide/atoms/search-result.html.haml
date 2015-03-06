@@ -1,0 +1,10 @@
+= render 'styleguide/partials/shared'
+
+- props = { "title": "search result", "img": "http://145.100.31.24/api/image?uri=http%3A%2F%2Fwww.mimo-db.eu%2Fmedia%2FSMS-MM%2FIMAGE%2FM777_01.jpg&size=BRIEF_DOC&type=IMAGE" }
+
+
+%ul
+  = ui_component('atoms/searchresult', properties: JSON.parse(props.to_json) )
+  
+  -#= ui_component('atoms/searchresult')
+
