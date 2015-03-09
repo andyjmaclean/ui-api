@@ -21,14 +21,10 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'sanitize'
   gem.add_dependency 'redcarpet'
 
-  gem.add_development_dependency 'rspec', '2.10.0'
-  gem.add_development_dependency 'rspec-rails', '2.10.0'
   gem.add_development_dependency 'capybara'
   gem.add_development_dependency 'cucumber'
   gem.add_development_dependency 'cucumber-rails'
   gem.add_development_dependency 'unicorn'
   gem.add_development_dependency 'rake'
-  gem.add_development_dependency 'jasmine'
-  gem.add_development_dependency 'selenium-webdriver'
-  gem.add_development_dependency 'headless'
+
 end
