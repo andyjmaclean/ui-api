@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(spec|features)/})
-  gem.name          = "europeana-component-api"
+  gem.name          = "ui-api"
   gem.require_paths = ["lib"]
   gem.version       = Rizzo::VERSION
 

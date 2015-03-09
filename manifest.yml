@@ -1,6 +1,6 @@
 ---
 applications:
-- name: eu-rizzo
+- name: ui-api
   buildpack: "https://github.com/cloudfoundry/ruby-buildpack#v1.2.1"
   instances: 1
   memory: 256M

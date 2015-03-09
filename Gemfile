@@ -8,11 +8,16 @@ gem 'haml'
 gem 'sass'
 gem 'sass-globbing'
 gem 'haml-rails'
+
 gem 'sass-rails'
-gem 'coffee-rails'
-gem 'coffee-script-source'
+#gem 'coffee-rails'
+#gem 'coffee-script-source'
+
 gem 'requirejs-rails', git: 'https://github.com/jwhitley/requirejs-rails.git'
-gem 'uglifier'
+
+#gem 'uglifier'
+
+
 gem 'autoprefixer-rails'
 gem 'unicorn'
 gem 'rake'
@@ -42,3 +47,4 @@ group :production do
   gem "airbrake"
   gem 'rails_12factor'
 end
+
