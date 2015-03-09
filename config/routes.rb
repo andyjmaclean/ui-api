@@ -1,4 +1,4 @@
-Rizzo::Application.routes.draw do
+UiApi::Application.routes.draw do
 
   get "r/:encrypted_url"             => 'redirector#show', :as => :redirector
   get "redirector"                   => 'redirector#internal'
@@ -34,4 +34,4 @@ Rizzo::Application.routes.draw do
   get 'documentation/*section' => 'documentation#show', defaults: { route: "styleguide" }
 
 
-end if defined?(Rizzo::Application)
+end if defined?(UiApi::Application)

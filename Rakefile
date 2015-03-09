@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Rizzo::Application.load_tasks
+UiApi::Application.load_tasks

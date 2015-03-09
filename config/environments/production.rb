@@ -1,4 +1,4 @@
-Rizzo::Application.configure do
+UiApi::Application.configure do
 
   config.cache_classes = true
   config.consider_all_requests_local       = false
@@ -20,5 +20,5 @@ Rizzo::Application.configure do
   # Enable serving of images, stylesheets, and JavaScripts from an asset server
   #  config.action_controller.asset_host = "//" << (ENV['RAILS_ASSET_DOMAIN'] || "assets.staticlp.com")
 
-end if defined?(Rizzo::Application)
+end if defined?(UiApi::Application)
 

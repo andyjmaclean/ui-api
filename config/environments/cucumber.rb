@@ -1,4 +1,4 @@
-Rizzo::Application.configure do
+UiApi::Application.configure do
   config.cache_classes = true
   config.serve_static_assets = true
   config.static_cache_control = "public, max-age=3600"
@@ -18,4 +18,4 @@ Rizzo::Application.configure do
 
   config.eager_load = true
 
-end if defined?(Rizzo::Application)
+end if defined?(UiApi::Application)

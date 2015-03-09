@@ -1,6 +1,6 @@
 require 'uri'
 
-module Rizzo
+module UiApi
   module UrlEncryptor
     class BadUrl < StandardError; end
 

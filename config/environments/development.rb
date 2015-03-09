@@ -1,4 +1,4 @@
-Rizzo::Application.configure do
+UiApi::Application.configure do
   config.cache_classes = false
 
   config.whiny_nils = true
@@ -17,4 +17,4 @@ Rizzo::Application.configure do
   config.assets.cache_store = :null_store  # Disables the Asset cache
   config.sass.cache = false  # Disable the SASS compiler cache
   
-end if defined?(Rizzo::Application)
+end if defined?(UiApi::Application)

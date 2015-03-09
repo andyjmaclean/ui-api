@@ -1,7 +1,7 @@
-module Rizzo
+module UiApi
   class Engine < Rails::Engine
 
-    initializer "rizzo.configure_rails_initialization" do |app|
+    initializer "ui_api.configure_rails_initialization" do |app|
 
       app.routes.prepend do
         get 'breadcrumb'        => 'global_resources#breadcrumb'
@@ -11,8 +11,8 @@ module Rizzo
 
     end
 
-    initializer "rizzo.update_asset_paths" do |app|
-      app.config.assets.precompile += Rizzo::Assets.precompile_as_engine
+    initializer "ui_api.update_asset_paths" do |app|
+      app.config.assets.precompile += UiApi::Assets.precompile_as_engine
     end
   end
 end

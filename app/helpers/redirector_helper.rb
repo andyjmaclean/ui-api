@@ -16,7 +16,7 @@ module RedirectorHelper
   #
   #
   def redirector_to(target_url)
-    encrypted_url = Rizzo::UrlEncryptor.encrypt(target_url)
+    encrypted_url = UiApi::UrlEncryptor.encrypt(target_url)
     length        = encrypted_url.length
     if length < MAX_URL_LENGTH
       redirector_path :encrypted_url => encrypted_url

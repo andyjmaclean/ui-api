@@ -1,4 +1,4 @@
-class Documentation < RizzoApp
+class Documentation < UiApiApp
 
   set_root("/documentation")
 

@@ -1,4 +1,4 @@
-class StyleGuide < RizzoApp
+class StyleGuide < UiApiApp
 
   set_root("/styleguide")
 

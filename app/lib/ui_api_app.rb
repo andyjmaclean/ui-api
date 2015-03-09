@@ -1,4 +1,4 @@
-class RizzoApp
+class UiApiApp
 
   class << self
     attr_reader :root

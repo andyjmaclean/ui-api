@@ -1,7 +1,7 @@
-require "rizzo/version"
-require "rizzo/url_encryptor"
+require "ui_api/version"
+require "ui_api/url_encryptor"
 
-module Rizzo::Assets
+module UiApi::Assets
 
   def self.precompile
     [
