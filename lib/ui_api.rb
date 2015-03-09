@@ -4,7 +4,7 @@ require "ui_api/url_encryptor"
 require "ui_api/url_validator"
 require "ui_api/assets"
 
-module ui_api
+module UiApp
 
 end
 

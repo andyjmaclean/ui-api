@@ -10,7 +10,6 @@ module UiApi::Assets
       'core_fixed_width.css',
       'core_legacy.css',
       'core_legacy_ie.css',
-      'omniture/s_code.js',
       'fonts.css',
       "fonts_woff2.css",
       'styleguide.css',
@@ -22,7 +21,6 @@ module UiApi::Assets
       'core.css',
       'core_ie.css',
       'core_fixed_width.css',
-      'omniture/s_code.js',
       "fonts.css",
       "fonts_woff2.css"
     ]
