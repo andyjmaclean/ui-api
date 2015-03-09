@@ -1,0 +1,58 @@
+fr:
+  colours:
+    nbt:
+      white:
+        background: "#ffffff"
+        label: Blanc
+      off-white: 
+        background: "#f1f1ee"
+        label: Blanc-Gris
+      paper:
+        background: "#D9D4CA"
+        label: Papier
+      light-grey:
+        background: "#A6A6A6"
+        label: Gris Clair
+      medium-grey:
+        background: "#4D4D4D"
+        label: Gris Moyen
+      dark-grey:
+        background: "#232323"
+        label: Gris Foncé
+      black:
+        background: "#1A1A1A"
+        label: Noir
+    top-level:
+      end-user-blue:
+        background: "#1A8AC7"
+        label: Bleu d'Utilisateur
+      jade-green:
+        background: "#37B98B"
+        label: Jade Vert
+      raspberry:
+        background: "#E11D53"
+        label: Framboise
+    brand-colours:
+      yellow:
+        background: "#FFAE00"
+        label: Jaune
+      red:
+        background: "#F22F24"
+        label: Rouge
+      raspberry: 
+        background: "#E11D53"
+        label: Framboise
+      jade-green: 
+        background: "#37B98B"
+        label: Jade Vert
+      light-blue: 
+        background: "#4BC0F0"
+        label: Bleu Clair
+      blue: 
+        background: "#1A8AC7"
+        label: Bleu
+      purple: 
+        background: "#7F3978"
+        label: Pourpre
+    
+    

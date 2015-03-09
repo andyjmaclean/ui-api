@@ -1,22 +1,2 @@
 en:
-  colours:
-    nbt:
-      white: White
-      off-white: Off-White
-      paper: Paper
-      light-grey: Light Grey
-      medium-grey: Medium Gray
-      dark-grey: Dark Gray
-      black: Black  
-    top-level:
-      end-user-blue: End User Blue
-      jade-green: Jade Green
-      raspberry: Raspberry
-    brand-colours:
-      yellow: Yellow
-      red: Red
-      raspberry: Raspberry
-      jade-green: Jade Green
-      light-blue: Light Blue
-      blue: Blue
-      purple: Purple
+  data: in english

@@ -1,0 +1,58 @@
+it:
+  colours:
+    nbt:
+      white:
+        background: "#ffffff"
+        label: Bianco
+      off-white: 
+        background: "#f1f1ee"
+        label: Bianca Scuro
+      paper:
+        background: "#D9D4CA"
+        label: Carta
+      light-grey:
+        background: "#A6A6A6"
+        label: Griggio Chiaro
+      medium-grey:
+        background: "#4D4D4D"
+        label: Griggio Medio
+      dark-grey:
+        background: "#232323"
+        label: Griggio Scuro
+      black:
+        background: "#1A1A1A"
+        label: Nero
+    top-level:
+      end-user-blue:
+        background: "#1A8AC7"
+        label: Blu del'utente
+      jade-green:
+        background: "#37B98B"
+        label: Verde di Giada
+      raspberry:
+        background: "#E11D53"
+        label: Lampone
+    brand-colours:
+      yellow:
+        background: "#FFAE00"
+        label: Giallo
+      red:
+        background: "#F22F24"
+        label: Rosso
+      raspberry: 
+        background: "#E11D53"
+        label: Lampone
+      jade-green: 
+        background: "#37B98B"
+        label: Verde di Giada
+      light-blue: 
+        background: "#4BC0F0"
+        label: Azzurro Chiaro
+      blue: 
+        background: "#1A8AC7"
+        label: Azzurro
+      purple: 
+        background: "#7F3978"
+        label: Viola
+    
+    

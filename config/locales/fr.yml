@@ -1,23 +1,2 @@
 fr:
-  colours:
-    nbt:
-      white: Blanc
-      off-white: Blanc-Gris
-      paper: Papier
-      light-grey: Gris Clair
-      medium-grey: Gris Moyen
-      dark-grey: Gris Foncé
-      black: Noir
-    top-level:
-      end-user-blue: Bleu d'Utilisateur
-      jade-green: Jade Vert
-      raspberry: Framboise
-    brand-colours:
-      yellow: Jaune
-      red: Rouge
-      raspberry: Framboise
-      jade-green: Jade Vert
-      light-blue: Bleu Clair
-      blue: Bleu,
-      purple: Pourpre
-    
+  data: in french

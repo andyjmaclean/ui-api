@@ -24,7 +24,9 @@
   It outputs a single colour:
 
   %ul.sg-colors
-    = eu_component('atoms/colour', properties: JSON.parse(  {"label": "magenta", "background": "#FF3399"}.to_json   ) )
+    = eu_component('atoms/colour', properties:{"label": "magenta", "background": "#FF3399"} )
+
+    -# = eu_component('atoms/colour', {"colours": {"brand-colours":{"jade-green": {"background": "#37B98B", "label": "Celtic-Green"}  }}}  )
 
 
 %p

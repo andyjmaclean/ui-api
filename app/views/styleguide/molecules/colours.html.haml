@@ -24,5 +24,8 @@
   It outputs all the style-guide colours:
 
   %ul.sg-colors
-    = eu_component('molecules/colours')
+    -#= eu_component('molecules/colours')
+    = eu_component('molecules/colours',   {"colours": {"brand-colours":{"jade-green": {"background": "#37B98B", "label": "Celtic-Green"}  }}}  )
+
+  
 

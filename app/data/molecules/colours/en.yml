@@ -1,0 +1,57 @@
+en:
+  colours:
+    nbt:
+      white:
+        background: "#ffffff"
+        label: White
+      off-white: 
+        background: "#f1f1ee"
+        label: Off-white
+      paper:
+        background: "#D9D4CA"
+        label: Paper
+      light-grey:
+        background: "#A6A6A6"
+        label: Light Grey
+      medium-grey:
+        background: "#4D4D4D"
+        label: Medium Grey
+      dark-grey:
+        background: "#232323"
+        label: Dark Grey
+      black:
+        background: "#1A1A1A"
+        label: Black
+    top-level:
+      end-user-blue:
+        background: "#1A8AC7"
+        label: User Blue
+      jade-green:
+        background: "#37B98B"
+        label: Jade Green
+      raspberry:
+        background: "#E11D53"
+        label: Raspberry
+    brand-colours:
+      yellow:
+        background: "#FFAE00"
+        label: Yellow
+      red:
+        background: "#F22F24"
+        label: Red
+      raspberry: 
+        background: "#E11D53"
+        label: Raspberry
+      jade-green: 
+        background: "#37B98B"
+        label: Verde di Giada
+      light-blue: 
+        background: "#4BC0F0"
+        label: Light Blue
+      blue: 
+        background: "#1A8AC7"
+        label: Blue
+      purple: 
+        background: "#7F3978"
+        label: Purple
+    
