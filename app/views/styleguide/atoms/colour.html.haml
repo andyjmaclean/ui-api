@@ -9,21 +9,29 @@
 
 
 %p
-  can be accessed with the component ui function:  
+  can be accessed with the component eu function:  
   %br
   %code
-    &#61; ui_component('atoms/colour', properties: { title: 'colour label', background: '#FF3399'})
+    &#61; eu_component('atoms/colour', properties: { title: 'colour label', background: '#FF3399'})
 
 %p
   or the api endpoint:
   %br
-  %a{ href: '/europeana/atoms/_colour?properties={"title":"pink", "background":"%23FF3399"}' }
+  %a{ href: '/europeana/atoms/_colour?properties={"label":"pink", "background":"%23FF3399"}' }
     here
 
 %p
   It outputs a single colour:
 
   %ul.sg-colors
-    = ui_component('atoms/colour', properties: { title: 'colour label', background: '#FF3399'})
+    = eu_component('atoms/colour', properties: JSON.parse(  {"label": "magenta", "background": "#FF3399"}.to_json   ) )
+
+
+%p
+
+  and doesn't crash when the properties param is ommitted:
+
+  %ul.sg-colors
+    = eu_component('atoms/colour')
 
 

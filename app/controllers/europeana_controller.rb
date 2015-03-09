@@ -2,6 +2,8 @@ require 'json'
 
 class EuropeanaController < ActionController::Base
 
+  include ComponentHelper
+  
   layout nil
 
   #include LayoutSupport
@@ -36,14 +38,17 @@ class EuropeanaController < ActionController::Base
         
     logger.info('props = ' + props.to_s)
 
-    render "components/" + params['cmp'], locals: {:properties  => props.deep_symbolize_keys}
+    #render "components/" + params['cmp'], locals: {:properties  => props.deep_symbolize_keys}
+    #eu_component(params['cmp'], properties: props.deep_symbolize_keys)
+
+    eu_component(params['cmp'],  locals: {:properties => props})
+      
   end
 
-  def preview
-    @fixed_width_layout = true if params[:route] == "fixed-width"
-
-    layout_details = get_layout(params[:route])
-    render layout_details[:template], layout: layout_details[:layout], locals: get_layout_config(params[:route])
-  end
+  #def preview
+  #  @fixed_width_layout = true if params[:route] == "fixed-width"
+  #  layout_details = get_layout(params[:route])
+  #  render layout_details[:template], layout: layout_details[:layout], locals: get_layout_config(params[:route])
+  #end
 
 end

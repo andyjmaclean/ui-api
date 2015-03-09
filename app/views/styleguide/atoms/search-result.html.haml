@@ -4,7 +4,6 @@
 
 
 %ul
-  = ui_component('atoms/searchresult', properties: JSON.parse(props.to_json) )
+  = eu_component('atoms/searchresult')
+  = eu_component('atoms/searchresult', properties: JSON.parse(props.to_json))
   
-  -#= ui_component('atoms/searchresult')
-
