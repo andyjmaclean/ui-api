@@ -1,0 +1,19 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+#/tmp
+
+# Ignore rvm files.
+.ruby-version
+.ruby-gemset
+
+# Ignore IDE files.
+*.komodoproject
+
+# Ignore os files.
+.DS_Store
+
+# Ignore compiled assets
+/public/assets

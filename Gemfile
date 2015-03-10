@@ -17,10 +17,8 @@ gem 'requirejs-rails', git: 'https://github.com/jwhitley/requirejs-rails.git'
 
 #gem 'uglifier'
 
-
 gem 'autoprefixer-rails'
 gem 'unicorn'
-gem 'rake'
 gem 'sanitize'
 gem 'dotenv'
 gem 'redcarpet'
@@ -41,9 +39,9 @@ group :development do
 end
 
 group :production do
-  gem "lograge"
-  gem "logstash-event"
-  gem "airbrake"
+  gem 'lograge'
+  gem 'logstash-event'
+  gem 'airbrake'
   gem 'rails_12factor'
 end
 
